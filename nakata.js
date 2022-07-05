@@ -2653,18 +2653,14 @@ m.reply(`👷Translate : ${Detek}\n🔎Hasil : ${Infoo}`)
             break
 case 'donasi':
 tekssa = `Halo @${m.sender.split("@s.whatsapp.net")[0]} 👋
-Berikut adalah list harga untuk sewa bot ini
+Bantu Donasi Ya Kak Agar Bot Ini Berkembang Menjadi Lebih Baik
 *💸Payment💰*
 *•Gopay:* 088270863279
 *•Dana:* 088270863279
 *•Tri:* 089519269447
 *•Smartfren:* 088270863279(Up +5)
 
-*Note:
-=>Untuk Sewa/Memasukkan Bot Kedalam Group, cukup membayar Rp20.000
-=>Pembayaran menggunakan payment diatas
-=>Hitungan sewa bot atau user premium adalah bulanan/1bulan (Tidak Ada Permanent, kecuali jika ada perpanjangan harga sewa)
-=>Bot Otomatis keluar jika sudah mencapai masa aktif*`
+*Terimakasih Buat Kakak Yang Sudah Membantu Donasi*,*Saya Harap Saya Bisa Bikin Bot Ini Berkembang Jadi Lebih Bagus*,*Jika Ada Yang Ingin Di Tanyakan Chat Saja Owner* wa.me/6288270863279*`
 hisoka.sendMessage(m.chat, { text: tekssa, contextInfo: { mentionedJid: [m.sender]} }, { quoted: m })
 break
             case 'list': case 'menu': case 'help': case '?': {

@@ -24,12 +24,12 @@ const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, 
 
 let btn = [{
                                 urlButton: {
-                                    displayText: `Github`,
-                                    url: `https://github.com/Nakataaard`
+                                    displayText: `Group Official 👥`,
+                                    url: `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi💌‘',
+                                    displayText: 'Donasi DanzBot 💰‘',
                                     id: 'donasi'
                                 }
                             }]
@@ -559,11 +559,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a7dcb02b888ae8685845a.png' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana/Gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6285748893171 (Owner)\n\nDonate For Me : \n\n⭔ Dana : 085748894171\n⭔ Saweria : https://saweria.co/Nakata` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/7ff7b1f592e885f0b453b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\nღ 13k Per Group via E-Walet 1 Month\nღ 18k via pulsa 1 Month\n\n Premium Price Bot\nღ 8k per User 1 bulan\n\nPayment can be via Dana/Gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6288270863279 (Owner)\n\nDonate For Me : \n\nღ Dana : 088270863279\nღ Gopay : 088270863279` }, { quoted: m })
             }
             break
             case 'sc': {
-                reply('Script : https://github.com/Nakataaard/MD2\n\n Dont Forget Give Star\n\nDonate : 6285748894171 (Dana)\nSaweria : https://saweria.co/Nakata\n\n Dont Forget Donate')
+                reply('Script : *Sc Ini Di Private,Jika Ingin Tau Lebih Lanjut Chat Owner* wa.me/6288270863279\n\n Dont Forget Give Star\n\nDonate : 088270863279 (Dana)\nGopay : 088270863279\n\n Terimakasih Yang Sudah Donasi😁')
             }
             break
             case 'chat': {
@@ -1153,13 +1153,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
                                 }
                             }, {
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                urlButton: {
+                                    displayText: 'Sewa DanzBot ღ',
+                                    url: 'https://msha.ke/danzzbot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1168,7 +1168,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Owner DanzBot 🧒',
                                     id: 'owner'
                                 }  
                             }, {
@@ -1231,13 +1231,13 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
                                 }
                             }, {
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                urlButton: {
+                                    displayText: 'Sewa DanzBot ღ',
+                                    url: 'https://msha.ke/danzzbot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1246,7 +1246,7 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Owner DanzBot 🧒',
                                     id: 'owner'
                                 }  
                             }, {
@@ -1484,7 +1484,7 @@ title: a.title, description: `Channel: ${a.author.name} | Durasi: ${a.duration}`
     const button = {
         title: `Hasil Pencarian Dari ${q}`,
         description: "Silahkan Tap Tombol Dibawah!",
-        footerText: `Create by Nakata`,
+        footerText: `Create by Danzz`,
         buttonText: 'Tap Disini!',
         listType: 'SINGLE_SELECT',
         sections: [
@@ -2655,10 +2655,10 @@ case 'donasi':
 tekssa = `Halo @${m.sender.split("@s.whatsapp.net")[0]} 👋
 Berikut adalah list harga untuk sewa bot ini
 *💸Payment💰*
-*•Gopay:* ISI NOMOR LU
-*•Dana:* ISI NOMOR LU
-*•Ovo:* ISI NOMOR LU
-*•Pulsa:* ISI NOMOR LU(Up +5)
+*•Gopay:* 088270863279
+*•Dana:* 088270863279
+*•Tri:* 089519269447
+*•Smartfren:* 088270863279(Up +5)
 
 *Note:
 =>Untuk Sewa/Memasukkan Bot Kedalam Group, cukup membayar Rp20.000
@@ -2673,9 +2673,9 @@ break
 ╭─ *Bot Info* ─╮       
 
 Libray : *Baileys Multi Device*
-Name Bot : *NahBotz-MD²*
-Creator : *NakataArdnt*
-Author : *NakataArdnta.*
+Name Bot : *DanzBot-MD*
+Creator : *Danzz*
+Author : *DanzzAnjim*
 User Total : *${Object.keys(global.db.data.users).length}*
  
 ╰─────────╯
@@ -2989,17 +2989,22 @@ User Total : *${Object.keys(global.db.data.users).length}*
 └───❑`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'S C R I P T',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
+                                }
+                            }, {
+                                urlButton: {
+                                    displayText: 'Sewa DanzBot ღ',
+                                    url: 'https://msha.ke/danzzbot'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'S E W A',
-                                    id: 'sewabot'
+                                    displayText: 'Donasi DanzBot 💰',
+                                    id: 'donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Owner DanzBot 🧒',
                                     id: 'owner'
                                 }  
                             }]
@@ -3014,7 +3019,7 @@ let sectionnya= [{
 								"title": "Fitur Grup",
 								"rows": [
 									{
-										"title": "Grup Fitur",
+										"title": "ღ Grup Fitur",
 										"description": "Menampilkan Fitur Grup",
 										"rowId": `${prefix}grupmenu`
 									}
@@ -3024,82 +3029,82 @@ let sectionnya= [{
 								"title": "Bot Menu",
 								"rows": [
 									{
-										"title": "ALL Fitur",
+										"title": "ღ All Fitur",
 										"description": "Menampilkan Semua Fitur!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Download Fitur",
+										"title": "ღ Download Fitur",
 										"description": "Menampilkan Download Menu",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Fitur",
+										"title": "ღ Search Fitur",
 										"description": "Menampilkan Search Fitur",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Random Fitur",
+										"title": "ღ Random Fitur",
 										"description": "Menampilkan random Fitur",
 										"rowId": `${prefix}randommenu`
 										},
 										{
-											"title": "Image Fitur",
+											"title": "ღ Image Fitur",
 										"description": "Menampilkan image Fitur",
 										"rowId": `${prefix}imagemenu`
 										},
 										{
-											"title": "Fun",
+											"title": "ღ Fun",
 										"description": "Menampilkan Fun Fitur",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-										"title": "primbon Fitur",
+										"title": "ღ primbon Fitur",
 										"description": "Menampilkan Primbon Fitur",
 										"rowId": `${prefix}primbonmenu`
 										},
 										{
-											"title": "Convert Fitur",
+											"title": "ღ Convert Fitur",
 										"description": "Menampilkan Convert Fitur",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-										"title": "No Category",
+										"title": "ღ No Category",
 										"description": "Menampilkan NoCategory Fitur",
 										"rowId": `${prefix}nocategorymenu`
 										},
 										{
-											"title": "Ephoto Fitur",
+											"title": "ღ Ephoto Fitur",
 										"description": "Menampilkan Ephoto Fitur",
 										"rowId": `${prefix}ephotomenu`
 										},
 										{
-											"title": "TextPro Fitur",
+											"title": "ღ TextPro Fitur",
 										"description": "Menampilkan TextPro Fitur",
 										"rowId": `textpromenu`
 										},
 										{
-											"title": "Database Fitur",
+											"title": "ღ Database Fitur",
 										"description": "Menampilkan Database Fitur",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Image Hiburan",
+										"title": "ღ Image Hiburan",
 										"description": "menampilkan Image Hiburan",
 										"rowId": `${prefix}immageemenu`
 										},
 										{
-										"title": "Tolls Fitur",
+										"title": "ღ Tolls Fitur",
 										"description": "menampilkan Tolls Fitur",
 										"rowId": `${prefix}tollsmenu`
 										},
 										{
-											"title": "Voice Changer Fitur",
+											"title": "ღ Voice Changer Fitur",
 										"description": "Menampilkan Voice Changer Fitur",
 										"rowId": `${prefix}voicemenu`
 										},
 								        {
-										"title": "Religion Fitur",
+										"title": "ღ Religion Fitur",
 										"description": "menampilkan Fitur Agama - Agama",
 										"rowId": `${prefix}religionmenu`
 										}
@@ -3109,7 +3114,7 @@ let sectionnya= [{
 								"title": "Chating Sesama User📞",
 								"rows": [
 									{
-										"title": "Anonymous Chat",
+										"title": "ღ Anonymous Chat",
 										"description": "menampilkan Fitur Anonymous Chat",
 										"rowId": `${prefix}anonymouschatmenu`
 									}
@@ -3119,7 +3124,7 @@ let sectionnya= [{
 								"title": "System Group👮",
 								"rows": [
 									{
-										"title": "Group Sistem Fitur",
+										"title": "ღ Group Sistem Fitur",
 										"description": "menampilkan Fitur System Grup",
 										"rowId": `${prefix}sistemmenu`
 									}
@@ -3129,7 +3134,7 @@ let sectionnya= [{
 								"title": "Owner Command",
 								"rows": [
 									{
-										"title": "Owner Fitur",
+										"title": "ღ Owner Fitur",
 										"description": "menampilkan Owner Fitur ( Khusus Owner )",
 										"rowId": `${prefix}ownermenu`
 									}
@@ -3139,7 +3144,7 @@ let sectionnya= [{
 								"title": "Thanks To",
 								"rows": [
 									{
-										"title": "Contributor",
+										"title": "ღ Contributor",
 										"description": "menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3148,7 +3153,7 @@ let sectionnya= [{
 						]
 hisoka.sendList(m.chat, `Halo ${pushname}`, `───❑ INFO BOT
 
-LIBRAY:  *NahBotz  MD*`, "Nakataa", "List Bor ", sectionnya, { quoted: m})
+LIBRAY:  *DanzBot-MD*`, "Danzz", "List Bot ", sectionnya, { quoted: m})
 break
 case 'grupmenu': {
 	            anu = `
@@ -3166,7 +3171,7 @@ case 'grupmenu': {
   ${prefix}promote @user
   ${prefix}demote @user
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'downloadmenu': {
@@ -3189,7 +3194,7 @@ case 'downloadmenu': {
   ${prefix}getmusic _<query>_
   ${prefix}getvideo _<query>_  
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
             break 
             case 'searchmenu': {
@@ -3205,7 +3210,7 @@ case 'downloadmenu': {
   ${prefix}wikimedia _<query>_
   ${prefix}ytsearch _<query>_
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'randommenu': {
@@ -3222,7 +3227,7 @@ case 'randommenu': {
   ${prefix}katasenja
   ${prefix}puisi
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'imagemenu': {
@@ -3236,7 +3241,7 @@ case 'imagemenu': {
   ${prefix}shinobu
   ${prefix}megumin
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'funmenu': {
@@ -3254,7 +3259,7 @@ case 'funmenu': {
   ${prefix}tebak [option]
   ${prefix}math [mode]  
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'voicemenu': {
@@ -3273,7 +3278,7 @@ ${prefix}robot
 ${prefix}slow
 ${prefix}tupai
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'religionmenu': {
@@ -3290,7 +3295,7 @@ ${prefix}tafsirsurah
 _Kristian_
 ${prefix}alkitab
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'immageemenu':  {
@@ -3301,7 +3306,7 @@ ${prefix}meme
 ${prefix}ppcouple
 ${prefix}darkjoke
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'tollsmenu': {
@@ -3312,7 +3317,7 @@ ${prefix}ssweb-hp
 ${prefix}ssweb-pc
 ${prefix}translate
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 
@@ -3351,7 +3356,7 @@ case 'primbonmenu': {
   ${prefix}zodiak
   ${prefix}shio
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'convertmenu': {
@@ -3373,7 +3378,7 @@ ${prefix}dbinary
 ${prefix}styletext
 ${prefix}ttp
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'nocategorymenu': {
@@ -3390,7 +3395,7 @@ case 'nocategorymenu': {
   ${prefix}listgc
   ${prefix}listonline
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'ephotomenu': {
@@ -3407,7 +3412,7 @@ ${prefix}blackpink
 ${prefix}igcertificate
 ${prefix}ytcertificate
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'textpromenu': {
@@ -3446,7 +3451,7 @@ ${prefix}3dgradient
 ${prefix}blackpink
 ${prefix}gluetext
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'databasemenu': {
@@ -3462,7 +3467,7 @@ case 'databasemenu': {
   ${prefix}getmsg
   ${prefix}delmsg
   `
-  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'anonymouschatmenu': {
@@ -3473,7 +3478,7 @@ case 'anonymouschatmenu': {
 	${prefix}stop ( stop anonymous chat )
 	${prefix}sendkontak ( Khusus Di Dalam Room Anonymous chat )
 	`
-	  textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+	  textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'sistemmenu': {
@@ -3482,7 +3487,7 @@ ${prefix}antilink On/Off
 ${prefix}mute On/Off
 ${prefix}antiwame On/Off
 `
-textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
   case 'ownermenu': {
@@ -3501,13 +3506,14 @@ ${prefix}autobio On/Off
 ${prefix}autoread On/Off
 ${prefix}autoketik On/Off
   `
-    textTemplateButtons(m.chat, anu, `Nakataa`, btn)
+    textTemplateButtons(m.chat, anu, `Danzz`, btn)
             }
 break
 case 'tqtt': 
 replay(`Thanks To 
 DikaArdnt.
 Fatih Arridho.
+Danzz
 Deff
 Juna Bot
 NakataArdnt

@@ -2655,12 +2655,11 @@ case 'donasi':
 tekssa = `Halo @${m.sender.split("@s.whatsapp.net")[0]} 👋
 Bantu Donasi Ya Kak Agar Bot Ini Berkembang Menjadi Lebih Baik
 *💸Payment💰*
-*•Gopay:* 088270863279
-*•Dana:* 088270863279
-*•Tri:* 089519269447
-*•Smartfren:* 088270863279(Up +5)
+*•Gopay:* 082147871664
+*•Dana:* 082147871664
+*•Pulsa:* 081236426029 (Up +5)
 
-*Terimakasih Buat Kakak Yang Sudah Membantu Donasi*,*Saya Harap Saya Bisa Bikin Bot Ini Berkembang Jadi Lebih Bagus*,*Jika Ada Yang Ingin Di Tanyakan Chat Saja Owner* wa.me/6288270863279*`
+*Terimakasih Buat Kakak Yang Sudah Membantu Donasi*,*Saya Harap Saya Bisa Bikin Bot Ini Berkembang Jadi Lebih Bagus*,*Jika Ada Yang Ingin Di Tanyakan Chat Saja Owner* wa.me/6281236426029*`
 hisoka.sendMessage(m.chat, { text: tekssa, contextInfo: { mentionedJid: [m.sender]} }, { quoted: m })
 break
             case 'list': case 'menu': case 'help': case '?': {
@@ -2669,9 +2668,9 @@ break
 ╭─ *Bot Info* ─╮       
 
 Libray : *Baileys Multi Device*
-Name Bot : *DanzBot-MD*
-Creator : *Danzz*
-Author : *DanzzAnjim*
+Name Bot : *ZaxX-Botz*
+Creator : *ZAxXX*
+Author : *Danzz*
 User Total : *${Object.keys(global.db.data.users).length}*
  
 ╰─────────╯
@@ -2985,22 +2984,22 @@ User Total : *${Object.keys(global.db.data.users).length}*
 └───❑`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
+                                    displayText: 'Group JB 👥',
+                                    url: 'https://chat.whatsapp.com/GHwDNBkWper9QIjxD9FowP'
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'Sewa DanzBot ღ',
-                                    url: 'https://msha.ke/danzzbot'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/J26acs2f22h9n9nJrOX2rt'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi DanzBot 💰',
+                                    displayText: 'Donasi ZaxX-Botz 💰',
                                     id: 'donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner DanzBot 🧒',
+                                    displayText: 'Owner ZaxX-Botz 🧒',
                                     id: 'owner'
                                 }  
                             }]
@@ -3149,7 +3148,7 @@ let sectionnya= [{
 						]
 hisoka.sendList(m.chat, `Halo ${pushname}`, `───❑ INFO BOT
 
-LIBRAY:  *DanzBot-MD*`, "Danzz", "List Bot ", sectionnya, { quoted: m})
+LIBRAY:  *ZaxX-Botz*`, "ZAxXX", "List Bot ", sectionnya, { quoted: m})
 break
 case 'grupmenu': {
 	            anu = `
